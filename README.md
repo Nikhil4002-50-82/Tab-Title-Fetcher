@@ -51,13 +51,13 @@ npm run build && npm run postbuild
 * Click the **“Get Current Tab Title”** button
 * The title of the active browser tab will appear inside the popup
 
-## 📚 Resources
+## Resources
 
 * 🔗 [Chrome Extensions - Getting Started](https://developer.chrome.com/docs/extensions/mv3/getstarted/)
 * 🔗 [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 * 🔗 [Vite Documentation](https://vitejs.dev/guide/)
 * 🔗 [Google Fonts](https://fonts.google.com/) (for custom fonts like `Caveat`)
 
-## 🙋‍♂️ Author
+## Author
 
 **Nikhil R Nambiar**
