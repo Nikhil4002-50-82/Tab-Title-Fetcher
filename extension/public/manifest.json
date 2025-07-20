@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Title Finder",
+  "name": "Tab Title Fetcher",
   "description": "Extension that automatically picks up the title of the current tab",
   "version": "1.0",
   "permissions": ["tabs"],
