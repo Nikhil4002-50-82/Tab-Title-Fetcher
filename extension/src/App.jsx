@@ -1,18 +1,18 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const App = () => {
   const [title, setTitle] = useState("");
-
   const fetchTitle = () => {
     chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
       const tabTitle = tabs[0].title;
       setTitle(tabTitle);
     });
   };
-
   return (
     <div className="w-80 h-auto p-4 bg-white rounded-xl shadow-lg font-custom text-gray-800">
-      <h1 className="text-2xl font-bold mb-4 text-purple-700">Tab Title Fetcher</h1>
+      <h1 className="text-2xl font-bold mb-4 text-purple-700">
+        Tab Title Fetcher
+      </h1>
       <button
         onClick={fetchTitle}
         className="w-full py-2 px-4 rounded-lg bg-purple-600 hover:bg-purple-700 text-white text-lg font-medium transition duration-200"
