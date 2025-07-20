@@ -2,18 +2,14 @@
 
 A modern Chrome Extension built with **React** and **Tailwind CSS**. It fetches and displays the **title of the current active tab** when a button is clicked in the popup.
 
----
-
 ## How to Clone and Use This Extension
 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Nikhil4002-50-82/chrome-extension-1.git
-cd chrome-extension-1/extension
+git clone https://github.com/Nikhil4002-50-82/Tab-Title-Fetcher.git
+cd Tab-Title-Fetcher/extension
 ````
-
----
 
 ### Install Dependencies
 
@@ -21,15 +17,11 @@ cd chrome-extension-1/extension
 npm install
 ```
 
----
-
 ### Build the Extension
 
 ```bash
 npm run build
 ```
-
----
 
 ### Copy Required Files to `dist/`
 
@@ -40,15 +32,11 @@ cp public/manifest.json dist/
 cp public/icon.png dist/
 ```
 
----
-
 Then simply run:
 
 ```bash
 npm run build && npm run postbuild
 ```
-
----
 
 ### Load the Extension in Chrome
 
@@ -57,17 +45,11 @@ npm run build && npm run postbuild
 3. Click **Load Unpacked**
 4. Browse to and select the `dist/` folder inside your `extension/` directory
 
----
-
 ### Use the Extension
 
 * Click on the extension icon in the Chrome toolbar
 * Click the **“Get Current Tab Title”** button
 * The title of the active browser tab will appear inside the popup
-
----
-
----
 
 ## 📚 Resources
 
