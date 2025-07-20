@@ -58,10 +58,6 @@ npm run build && npm run postbuild
 * 🔗 [Vite Documentation](https://vitejs.dev/guide/)
 * 🔗 [Google Fonts](https://fonts.google.com/) (for custom fonts like `Caveat`)
 
----
-
 ## 🙋‍♂️ Author
 
-Nikhil R Nambiar
-
----
+**Nikhil R Nambiar**
